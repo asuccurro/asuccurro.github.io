@@ -6,8 +6,40 @@ layout: landing
 						<div class="inner">
 							<h2>{{ site.title }}</h2>
 							<p>{{ site.description | markdownify }}</p>
+							<ul class="icons">
+								<li><a target="_blank" href="https://twitter.com/a_succurro" class="icon fa-twitter fa-3x"><span class="label">twitter</span></a></li>
+								<li><a target="_blank" href="https://github.com/asuccurro" class="icon fa-github fa-3x"><span class="label">github</span></a></li>
+								<li><a target="_blank" href="https://linkedin.com/in/asuccurro/" class="icon fa-linkedin-square fa-3x"><span class="label">Dolor</span></a></li>
+							</ul>
 						</div>
-						  <a href="#cta" class="more scrolly"></a>
+						  <a href="#posts" class="more scrolly"></a>
+					</section>
+				<!-- One -->
+					<section id="posts" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Latest news</h2>
+							</header>
+							<ul class="features">
+							  <li class="icon fa-laptop">
+							    <h3>Posts</h3>
+							    {% for post in site.posts limit:3 %}
+							    <h5><a href="{{ post.url }}">{{post.date | date_to_string}} - {{ post.title }}</a> </p></h5>
+							    {% endfor %}
+							  </li>
+								<li class="icon fa-comment">
+									<h3>Announcements</h3>
+									<h5><a href="/announcements/food-security"> First Cologne Conference on Food for Future</a></h5>
+								</li>
+							</ul>
+							<!-- <ul> <p>{% assign post = site.posts.first %}</p>-->
+							<!--   {% for post in site.posts %} -->
+							<!--   <li> -->
+							<!--     <a href="{{ post.url }}">{{ post.title }}</a> -->
+							<!--   </li> -->
+							<!--   {% endfor %} -->
+							<!-- </ul> -->
+						</div>
 					</section>
 				<!-- Two -->
 					<section id="cta" class="wrapper style4">
