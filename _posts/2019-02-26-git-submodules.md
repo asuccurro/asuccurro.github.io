@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL about git submodules"
+title:  "'TIL' about git submodules"
 date:   2019-02-26
 categories: news, TIL, git
 ---
