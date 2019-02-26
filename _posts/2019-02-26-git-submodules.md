@@ -2,7 +2,7 @@
 layout: post
 title:  "'TIL' about git submodules"
 date:   2019-02-26
-categories: news, TIL, git
+categories: TIL
 ---
 
 Today I kick-start the post category "Today I Learned" (TIL), and it's about a feature of git: [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
