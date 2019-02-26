@@ -9,7 +9,7 @@ Today I kick-start the post category "Today I Learned" (TIL), and it's about a f
 
 ## What I needed
 
-I developed a simple script in python to [match email addresses from a list with a list of names](https://github.com/asuccurro/anonyque/blob/master/python/matchEmails.py). At (German) academic institutions, usually you get assigned an email address that is composed of your surname or some sort of abbreviations of it, so it is not too hard to consider possible patterns to match a work email with the person's name. I wanted this code to be available (hence, on github), but I do not want to make the input files I will use public, yet I would like to keep those files under revision control, because "rm -r" happens. I also did not want to copy the scripts and keep different versions on different repositories, because it is way too easy to lose sight of changes.
+I developed a simple script in python to [match email addresses from a list with a list of names](https://github.com/asuccurro/anonyque/blob/master/python/matchEmails.py). At (German) academic institutions, usually you get assigned an email address that is composed of your surname or some sort of abbreviations of it, so it is not too hard to consider possible patterns to match a work email with the person's name. I wanted this code to be available (hence, on github), but I do not want to make the input files I will use public, yet I would like to keep those files under revision control, because "rm -rf" happens. I also did not want to copy the scripts and keep different versions on different repositories, because it is way too easy to lose sight of changes.
 
 ## The solution
 
