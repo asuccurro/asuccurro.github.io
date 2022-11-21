@@ -3,9 +3,9 @@
 
 # Site settings
 title: Not just data science 
-description: The personal website of Antonella Succurro, PhD
+description: Antonella Succurro, PhD
 owner: Antonella Succurro, PhD
-first_published: 2018
+first_published: 2022
 email: a.succurro@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asuccurro.github.io/" # the base hostname & protocol for your site
